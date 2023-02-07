@@ -1,5 +1,6 @@
 package item;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Sneaker implements Item
@@ -10,7 +11,7 @@ public class Sneaker implements Item
     private int ask;
     private int bid;
 
-    private List<Offer> lOffers;// lista de las offers
+    private List<Offer> lOffers = new ArrayList<>();// lista de las offers
 
     public Sneaker(String style, String name)
     {
