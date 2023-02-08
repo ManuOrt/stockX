@@ -26,7 +26,7 @@ public class Bid implements Offer
 
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append(this.size).append(this.bid);
+        sb.append( "Size: ").append(size).append(" Bid: ").append(bid).append("\n");
         return sb.toString();
     }
 

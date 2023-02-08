@@ -25,7 +25,7 @@ public class Ask implements Offer
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
-        sb.append(this.size).append(this.ask);
+        sb.append( "Size: ").append(size).append(" Ask: ").append(ask).append("\n");
         return sb.toString();
     }
 }
